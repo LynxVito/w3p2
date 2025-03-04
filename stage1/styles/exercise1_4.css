@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 300px;
+}
+
+#sq6 {
+    order: 1;
+}
+#sq5 {
+    order: 2;
+}
+
+#sq4 {
+    order: 3;
+}
+
+#sq7, #sq8, #sq9 {
+    order: 4;
+}
